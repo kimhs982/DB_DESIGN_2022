@@ -1,7 +1,7 @@
 ## 5주차 실습
 1. 4주차 과제에서 만든 Inha 데이터베이스 확장
-![Inha 데이터베이스 요구사항](./images/Inha_DB_demand1.PNG)
-![week5 workbench](./images/week5_workbench.png)
+![Inha 데이터베이스 요구사항](../images/Inha_DB_demand1.PNG)
+![week5 workbench](../images/week5_workbench.png)
 
 2. 확장한 Inha DB를 Express와 연동
 ```sql
@@ -17,7 +17,7 @@ insert into employee
 -- employee 테이블 select
 select * from employee
 ```
-![insert한 결과를 sql.js 파일에서 select문으로 조회한 결과](./images/week5_step2.png)
+![insert한 결과를 sql.js 파일에서 select문으로 조회한 결과](../images/week5_step2.png)
 
 ### 5주차 실습 실행 방법
 1. 레포지토리 복사
