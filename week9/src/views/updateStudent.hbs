@@ -1,0 +1,39 @@
+<h1>{{title}}</h1>
+
+<table>
+  <tr>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Email</td>
+    <td>Phone_number</td>
+    <td>Major</td>
+    <td>Student_Id</td>
+    <td>Did</td>
+  </tr>
+  {{#each stu_res}}
+    <form method="post">
+      <tr>
+        <td><input type="text" name="id" value={{Id}} readonly /></td>
+        <td><input type="text" name="name" placeholder={{Name}} /></td>
+        <td><input type="text" name="email" placeholder={{Email}} /></td>
+        <td><input
+            type="text"
+            name="phone_number"
+            placeholder={{Phone_number}}
+          /></td>
+        <td><input type="text" name="major" placeholder={{Major}} /></td>
+        <td><input
+            type="text"
+            name="student_id"
+            placeholder={{Student_Id}}
+          /></td>
+        <td><input type="text" name="did" placeholder={{Did}} /></td>
+        <td><input
+            type="submit"
+            value="수정"
+            formaction="/update/student"
+          /></td>
+      </tr>
+    </form>
+  {{/each}}
+</table>
