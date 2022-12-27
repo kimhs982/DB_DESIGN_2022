@@ -5,8 +5,8 @@
 
 2. 임의로 학생을 10만명 만들어서 index 미적용/적용 결과를 제시
 [외부 sql 파일 읽기&실행(참고)](https://philip.yurchuk.com/software/mysql-failed-to-open-file-error-2-and-22-on-windows/)
----
 ```python
+# week9_createindex.py
 f = open('week9_step2.sql', 'w', encoding="UTF-8")
 # 사용할 DB 이름
 f.writelines("USE week9_assignment_12181763;\n")
