@@ -21,7 +21,7 @@ select * from employee
 
 ### 5주차 실습 실행 방법
 1. 레포지토리 복사
-   > 1. git glone <원격저장소 주소>
+   > 1. git clone <원격저장소 주소>
    > 2. 해당 폴더로 이동 ex) cd week5
    > 3. npm init
    > 4. npm install
